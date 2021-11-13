@@ -121,7 +121,7 @@ function Form({currentId , setCurrentId}) {
                 name="message" 
                 variant="outlined" 
                 label="Message" 
-                fullWidth
+                fullWidth multiline rows={4}
                 value={postData.message}
                 onChange={ messageFieldHandler }
                 />
